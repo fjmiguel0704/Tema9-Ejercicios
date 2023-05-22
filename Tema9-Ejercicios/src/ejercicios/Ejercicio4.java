@@ -6,14 +6,20 @@ import java.util.TreeMap;
 public class Ejercicio4 {
 
 	public static void main(String[] args) {
+		// Guardará los numeros introducidos por el usuario
 		int numeros;
+		// Contador para la coleccion
 		int cont = 0;
+		// Valor inicial para las claves de número
 		int valorNum = 1;
+		// Valor inicial para las claves de estrellas
 		int valorEstre = 1;
 
+		// Creamos la coleccion TreeSet para agregar datos a ella y ordenar sus datos
 		TreeMap<Integer, Integer> numero = new TreeMap<Integer, Integer>();
 		TreeMap<Integer, Integer> estrellas = new TreeMap<Integer, Integer>();
 
+		// Scanner para leer por teclado
 		Scanner read = new Scanner(System.in);
 
 		while (cont <= 7) {
