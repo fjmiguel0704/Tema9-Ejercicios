@@ -10,6 +10,7 @@ public class Ejercicio5 {
 		String nomProduct;
 		double precio;
 
+		//
 		HashMap<String, Double> productos = new HashMap<String, Double>();
 		ArrayList<Integer> stock = new ArrayList<Integer>();
 

@@ -22,6 +22,7 @@ public class Ejercicio4 {
 		// Scanner para leer por teclado
 		Scanner read = new Scanner(System.in);
 
+		// Mientras
 		while (cont <= 7) {
 			if (cont >= 0 && cont <= 4) {
 				System.out.println("Introduce tus 5 primeros números del euromillón: ");
