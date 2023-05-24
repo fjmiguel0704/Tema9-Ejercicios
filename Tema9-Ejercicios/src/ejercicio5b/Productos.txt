@@ -1,0 +1,4 @@
+Patatas 0.6
+Cereales 1.0
+Galletas 0.8
+Cebollas 0.3
